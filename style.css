@@ -1,0 +1,288 @@
+/**
+   Базовый стиль для сайта
+ */
+body {
+    position: relative;
+    font-family: "Montserrat SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+/**
+   Другие стили
+ */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    vertical-align: middle;
+}
+
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px ;
+    transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.callback {
+    vertical-align: middle;
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color:black;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.navbar-brand:hover {
+    color: coral;
+    transition: all .07s ease-in-out;
+}
+
+.image {
+    height: 600px;
+}
+
+.image img{
+    margin-left: 30px;
+    width: 60%;
+    height: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.image h1{
+    margin-left: 30px;
+    color: coral;
+    font-size: 30px;
+}
+
+.image h2 {
+    text-align: right;
+    margin-top: -500px;
+    margin-right: 130px;
+}
+
+.image h3 {
+    margin-left: 970px;
+    text-align: left;
+    width: 540px;
+    height: 500px;
+}
+
+.second {
+    margin-top: -340px;
+}
+
+.third {
+    margin-top: -420px;
+    font-style: italic;
+}
+
+.news-card1 {
+    margin: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.news-card1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card1 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.news-card1 p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.news-card1 .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.news-card1 .read-more:hover {
+    background-color: darkorange;
+}
+
+
+
+
+.news-card2 {
+    margin-left: 390px;
+    margin-top: -697px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.news-card2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card2 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.news-card2 p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.news-card2 .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.news-card2 .read-more:hover {
+    background-color: darkorange;
+}
+
+
+
+.news-card3 {
+    margin-left: 750px;
+    margin-top: -697px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.news-card3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card3 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.news-card3 p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.news-card3 .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.news-card3 .read-more:hover {
+    background-color: darkorange;
+}
+
+
+
+.news-card4 {
+    margin-left: 1110px;
+    margin-top: -697px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.news-card4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card4 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.news-card4 p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.news-card4 .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.news-card4 .read-more:hover {
+    background-color: darkorange;
+}
